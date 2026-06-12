@@ -1,0 +1,61 @@
+# =====================
+# Python cache files
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# Virtual environments
+# =====================
+venv/
+.venv/
+env/
+ENV/
+
+# =====================
+# Poetry
+# =====================
+.cache/
+dist/
+build/
+*.egg-info/
+
+# =====================
+# Streamlit
+# =====================
+.streamlit/secrets.toml
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# Data files (IMPORTANT)
+# =====================
+# Uncomment ONLY if your dataset is large or private
+# data/
+# *.csv
+
+# Keep your OUTPUTS if needed for demo
+# (remove only if too large)
+# outputs/

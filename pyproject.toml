@@ -1,15 +1,21 @@
-[project]
+[tool.poetry]
 name = "ecommerce-customer-intelligence"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "Zainab Manzoor",email = "zainabmanzoorzoor@gmail.com"}
-]
+description = "Customer segmentation and CLV analytics system"
+authors = ["Zainab Manzoor <zainabmanzoorzoor@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-]
+package-mode = false
 
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+pandas = "^2.2.0"
+numpy = "^2.0.0"
+scikit-learn = "^1.5.0"
+matplotlib = "^3.8.0"
+seaborn = "^0.13.0"
+kagglehub = "^0.2.0"
+streamlit = "^1.58.0"
+plotly = "^6.8.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
