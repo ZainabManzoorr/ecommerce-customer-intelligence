@@ -57,3 +57,4 @@ urllib3==2.7.0 ; python_version == "3.12"
 uvicorn==0.49.0 ; python_version == "3.12"
 watchdog==6.0.0 ; python_version == "3.12" and platform_system != "Darwin"
 websockets==16.0 ; python_version == "3.12"
+plotly==5.24.1
